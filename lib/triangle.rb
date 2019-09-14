@@ -33,5 +33,5 @@ class Triangle
   end
 end
 
-triangle = Triangle.new(0,-4,0)
+triangle = Triangle.new(0,0,0)
 puts triangle.kind
