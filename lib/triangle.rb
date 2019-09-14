@@ -33,4 +33,4 @@ class Triangle
 end
 
 triangle = Triangle.new(0,-4,0)
-puts triangle.sides
+puts triangle.kind
