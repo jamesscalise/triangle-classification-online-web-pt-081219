@@ -33,5 +33,3 @@ class Triangle
   end
 end
 
-triangle = Triangle.new(0,0,0)
-puts triangle.kind
