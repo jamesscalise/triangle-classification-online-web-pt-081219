@@ -14,12 +14,9 @@ class Triangle
   
   def kind
     if ((@sides[0] + @sides[1]) <= @sides[2])
-      binding.pry
-      begin
+      
         raise TriangleError
-     rescue TriangleError => error
-      puts error.message
-      end
+      
     elsif @sides[0] == @sides[1] && @sides[1] == @sides[2]
       :equilateral
     elsif @sides[0] == @sides[1] || @sides[1] == @sides[2] || @sides[0] == @sides[2]
