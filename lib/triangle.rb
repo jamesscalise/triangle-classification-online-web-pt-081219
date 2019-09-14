@@ -1,3 +1,5 @@
+require 'pry'
+
 class Triangle
   
   attr_accessor :sides
@@ -12,6 +14,7 @@ class Triangle
   
   def kind
     if ((@sides[0] + @sides[1]) <= @sides[2])
+      binding.pry
       begin
         raise TriangleError
      rescue TriangleError => error
